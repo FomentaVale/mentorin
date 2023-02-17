@@ -25,7 +25,7 @@ import { MailModule } from './mail/mail.module';
     AtuacaoModule, CategoriaInternaModule, EmpresaModule, FuncaoModule, 
     IntegrantesModule, ParticipantesModule, PessoaModule, PessoaSkillModule, 
     SkillModule, StartupModule, TipoAtividadeModule, TipoFuncaoModule, 
-    UsuarioModule, MailModule,],
+    UsuarioModule, MailModule],
   controllers: [AppController],
   providers: [AppService],
 })

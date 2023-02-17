@@ -18,7 +18,7 @@ interface ErrorsType {
     }
 }
 
-/* a const schema abaixo define o corpo do formlário de login, está sendo utilizado a biblioteca zod */
+/* a const schema abaixo define o corpo do formulário de login, está sendo utilizado a biblioteca zod */
 
 const schema = zod.object({
     emailUsuario: zod.string().email('Digite um email válido').nonempty('Digite seu email'),
